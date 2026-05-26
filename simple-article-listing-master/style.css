@@ -40,11 +40,7 @@
     text-align: center;
     font-size: 14px;
   }
-  .header p{
-    padding-top: 30px;
-    color: gainsboro;
-  }
-    
+
   .container_1{
     display: flex;
     gap: 20px;
@@ -116,11 +112,13 @@
 
   .computing h5{
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.6;
+    padding:10px 20px ;
   }
 
   .computing span{
     font-size: 12px;
+    padding:10px 25px;
   }
 }
 
@@ -131,6 +129,7 @@
 
   body{
     height: auto;
+    width: auto;
     padding: 20px 0;
   }
 
@@ -147,11 +146,9 @@
     padding-left: 30px;
     padding-right: 30px;
   }
-
-  .header p{
-    padding-top: 20px;
+  .header img{
+    margin-top: 50px;
   }
-
   .container_1{
     flex-direction: column;
     align-items: flex-start;
@@ -163,7 +160,7 @@
 
   img{
     width: 70%;
-    height: auto;
+    height: 100%;
   }
 
   .computing{
@@ -171,11 +168,13 @@
   }
 
   .computing h5{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
+    padding: 10 20px;
   }
 
   .computing span{
     font-size: 12px;
+    padding-left: 20px;
   }
 }
